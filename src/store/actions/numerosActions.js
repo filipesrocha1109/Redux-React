@@ -7,6 +7,7 @@ export const alterarNumeroMinino = (novoNumero) =>{
     }
 } 
 
+// Action Creator
 export const alterarNumeroMaximo = (novoNumero) =>{
     return{
         type : "NUM_MAX_ALTERADO",
